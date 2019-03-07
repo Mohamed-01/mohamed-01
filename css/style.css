@@ -1,0 +1,335 @@
+*{
+	
+		padding:0px;
+		margin:0px;
+	box-sizing:border-box;
+	
+	
+}
+html{
+		
+			width:100%;
+			height:100%
+		
+}
+	
+boddy{
+		
+			width:100%;
+			height:100%;
+			
+		
+		
+}
+	
+nav{
+		overflow:auto;
+		height:auto;
+		width:100%;
+		background-color:#f1f1f1;
+		position:fixed;
+		z-index:1;
+		top:0
+		
+}	
+
+nav #nava1{
+		
+		text-decoration:none;
+		float:left;
+		font-size:25px;
+		margin-left:20px;
+		margin-top:20px;
+		color:#3a84df;
+		margin-bottom:10px;
+		padding:5px
+		
+}
+nav #nava1:hover{
+		
+		background-color:#ccc;
+		
+			
+}
+	
+nav #nava1 #span-nav{
+		
+		background-color:rgba(0,0,0,0.70);
+		margin-bottom:20px ;
+		margin-top:10px ;
+		padding-right:20px;
+		padding-left:20px;
+		color:#3a84df
+		
+}
+nav .nava2{
+		
+		text-decoration:none;
+		float:right;
+		font-size:25px;
+		margin-top:20px;
+		padding-left:10px;
+		color:#3a84df;
+		padding-right:18px;
+		margin-right:30px
+		
+}
+nav .nava2:hover{
+		
+			background-color:#ccc;
+			
+
+		
+}
+main section .hrrrr{
+			
+			margin-left:30px;
+			margin-right:30px;
+			border:0.5px solid #e2e2e2a8;
+			
+}
+	
+header{
+	
+		height:40%;
+		background-color:white;
+	
+}
+header #textheader{
+			position:absolute;
+			margin-top:27%;
+			margin-left:40%;
+			color:white;
+			
+}
+header #textheader #span{
+		
+		background-color:rgba(0,0,0,0.70);
+		padding-bottom:15px ;
+		padding-top:15px ;
+		padding-right:20px;
+		padding-left:20px
+}
+	
+	
+	
+header #imgheader{
+		
+				
+		width:97%;
+		padding-left:4%
+		
+	
+}
+	
+main{
+	
+	height:75%;
+	background-color:white;
+	
+}
+.row1{
+    clear: both;
+    padding: 5px 7px;
+    margin-top: 5px;
+    width: 100%;
+    padding-top: 5px;
+    background-color: white;
+    display: inline-block;
+}
+.row1 .div1{
+    padding: 0px 5px;
+    width: 25%;
+    float: left;
+    
+}
+.row1 .div1 .container{
+    position: relative;
+    
+}
+.row1 .div1 .container .text{
+    color: white;
+    background-color: black;
+    padding: 5px 15px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    
+    
+}
+.row1 .div1 .container img{
+    width: 100%;
+    
+}
+.about {
+    padding:20px;
+    width: 100%;
+    display: inline-block;
+    
+}
+.about h3{
+    padding-bottom: 20px;
+    
+}
+.about #p{
+    padding: 10px;
+    
+}
+.about .containeer{
+    width: 25%;
+    padding: 1px 5px;
+    float: left;
+    
+    
+}
+.about .containeer img{
+    width: 100%;
+    
+    
+}
+.about .containeer button{
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    background-color: #f1f1f1;
+    color: black;
+    border: none;
+    
+}
+.about .containeer button:hover{
+    background-color: lightgrey;
+    cursor: pointer;
+    
+}
+.about .containeer h6{
+    color: gray;
+    
+    
+    
+}
+#texth1{
+	
+	padding-left: 40px;
+   padding-top:60px
+}
+.whid-div{
+	
+	width:100%;
+	box-sizing: inherit;
+	
+}
+.poto-11{
+	
+	position:relative;
+	
+}
+.img1{
+	width:25%
+}
+.text1{
+	position:absolute;
+}
+
+main section #prgraf{
+	
+	padding-left:42px;
+	padding-right:25px;
+	padding-top:10px;
+	padding-bottom:10px;
+	font-size:17px;
+	
+}
+
+
+
+ main section #text-h3 {
+	
+	 padding-left:40px;
+	 padding-bottom:20px
+ }
+ 
+ main section #pragraf2{
+	 
+	  padding-left:40px;
+	 padding-bottom:10px;
+	 padding-top:10px
+	 
+ }
+ main section #form {
+	 
+	 padding-left:30px;
+	 
+	 
+ }
+ main section #form .input1{
+	 
+	 display:block;
+	 width:97%;
+	 padding-top:10px;
+	 padding-bottom:10px;
+	 padding-left:5px;
+	 margin-bottom:20px
+	 
+ }
+ main section #form .formbutton{
+	 
+	 border:none;
+	 background-color:black;
+	 color:white;
+	 padding: 10px 15px;
+	 margin-bottom:40px
+	 
+	 
+	 
+ }
+ main section #form .formbutton:hover{
+	 
+	 background-color:#ccc;
+	 color:black
+ }
+ 
+ main section #mab{
+	 
+	 margin:10px 30px
+	 
+	 
+ }
+ 
+
+	
+main section{
+	
+		width:100%;
+		height:100%
+		
+}
+	
+footer{
+	
+	background-color:black;
+	height:10%;
+	color:red;
+	text-align:center;
+	padding-bottom:20px;		
+	padding-top:20px;
+	font-size:25px
+}
+	
+@media screen and (max-width: 600px){
+		
+	main section div{
+		
+			
+			display:block;
+			width:100%;
+			float:left;
+			
+			
+		}
+		
+		
+		
+}
+	
+	
+	
